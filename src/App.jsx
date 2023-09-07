@@ -16,7 +16,7 @@ import Navbar from './navbar'
 function App() { 
   return (
     <>
-    <BrowserRouter> 
+    <BrowserRouter basename='/reactexercise'> 
     <Navbar/>
     <div style={{padding:'1em'}}>
     <Routes>
